@@ -5,44 +5,70 @@ DATA: 03/03/2023 -->
 
 <!DOCTYPE html>
 <html>
-
     <head>
-            <title>Megalodonte - A Lenda</title>
-            <meta charset="utf-8" />
+        <title>Megalodonte - A Lenda</title>
+        <meta charset="utf-8" />
     </head>
-
     <body>
-
         <h2>Conheça o Megalodon! O maior tubarão que já existiu.</h2>
-
         <span>Saiba mais do Megalodon no site a seguir:</span>
         <br />
         <a href="https://marsemfim.com.br/conheca-o-megalodon-o-maior-tubarao-que-ja-existiu/">Tubaraummm te amo</a>
-
-        <p>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos, além disso, com uma força de mordida cinco vezes mais potente que a do tubarão-branco. Contudo, as fêmeas eram mães especiais. Uma análise de dentes de megalodon encontrados em locais de vários continentes sugere que os gigantes costumavam usar berçários para melhorar as chances de sobrevivência de filhotes, tal qual, hoje fazem alguns tubarões. </p>
-
+        <p>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos, além disso, com uma força de mordida cinco vezes mais potente que a do tubarão-branco. Contudo, as fêmeas eram mães especiais. Uma análise de dentes de megalodon encontrados em locais de vários continentes sugere que os gigantes costumavam usar berçários para melhorar as chances de sobrevivência de filhotes, tal qual, hoje fazem alguns tubarões.</p>
         <p>Logo, o nome científico Carcharocles Megalodon, significa "dente grande". Em consequência, durante o tempo de vida foi o maior peixe que já existiu. Britânica.com, "os maiores indivíduos mediam, até mesmo, 18 metros cerca de três vezes o tamanho dos maiores tubarões".</p>
         
-        <div>
-            <form>
-                <span>Preencha suas principais dúvidas e curiosidades sobre esse Tubarãozaum:</span>
-                <input type="text" /> 
-            <form>
-        </div>
-
-        <div>
-            <form>
-                <span>Você concorda com os Termos de uso da Página?</span>
-                <input type="checkbox" /> 
-            </form>
-        </div>
+        <ul>
+            <li>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos</li>
+            <li>Com uma força de mordida cinco vezes mais potente que a do tubarão-branco</li>
+            <li>As fêmeas eram mães especiais, usando berçários para melhorar as chances de sobrevivência dos filhotes</li>
+            <li>Nome científico Carcharocles Megalodon, significa "dente grande"</li>
+            <li>Maior peixe que já existiu, com os maiores indivíduos medindo até 18 metros</li>
+        </ul>
         
-        <div>
-            </form>
-                <input type="button" value="Enviar" />
-            </form>
-        </div>
+        <form method="POST" action="processar-form.php">
+
+            <div>
+                <form>
+                    <span>Preencha suas principais dúvidas e curiosidades sobre esse Tubarãozaum:</span>
+                    <input type="text" /> 
+                </form>
+            </div>
+          
+            <p>O Nosso conteúdo sobre megalodonte agrada você em que nível?</p>
+            <p>
+              <label>
+                <input type="radio" name="avaliacao" value="excelente"> Excelente
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="avaliacao" value="bom"> Bom
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="avaliacao" value="regular"> Regular
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="avaliacao" value="ruim"> Ruim
+              </label>
+            </p>
+            <p>
+              <label for="comentario">Comentário:</label>
+              <textarea id="comentario" name="comentario"></textarea>
+            </p>
+          
+            <div>
+              <span>Você concorda com os Termos de uso da Página?</span>
+              <input type="checkbox" /> 
+            </div>
+          
+            <p>
+              <input type="submit" value="Enviar">
+            </p>
+          </form>
         
     </body>
-
 </html>
