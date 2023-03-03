@@ -3,75 +3,106 @@ Disciplina de Programação Web
 Dev: Douglas Leonel de Almeida
 DATA: 03/03/2023 -->
 
+<!-- A Tag DOCTYPE é responsável para o navegador qual versão do HTML deve ser utilizada para exibir a página.. -->
 <!DOCTYPE html>
+
+<!-- A Tag html é responsável em setar a estrutura do HTML. -->
 <html>
-<head>
-  <title>Megalodonte - A Lenda</title>
-  <meta charset="utf-8" />
-</head>
-<body>
-  <h2>Conheça o Megalodon! O maior tubarão que já existiu.</h2>
-<span>Saiba mais do Megalodon no site a seguir:</span>
-<br />
-<a href="https://marsemfim.com.br/conheca-o-megalodon-o-maior-tubarao-que-ja-existiu/">Tubaraummm te amo</a>
 
-  <p>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos, além disso, com uma força de mordida cinco vezes mais potente que a do tubarão-branco. Contudo, as fêmeas eram mães especiais. Uma análise de dentes de megalodon encontrados em locais de vários continentes sugere que os gigantes costumavam usar berçários para melhorar as chances de sobrevivência de filhotes, tal qual, hoje fazem alguns tubarões. </p>
-  <p>Logo, o nome científico Carcharocles Megalodon, significa "dente grande". Em consequência, durante o tempo de vida foi o maior peixe que já existiu. Britânica.com, "os maiores indivíduos mediam, até mesmo, 18 metros cerca de três vezes o tamanho dos maiores tubarões".</p>
-  <ul>
-    <li>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos</li>
-    <li>Com uma força de mordida cinco vezes mais potente que a do tubarão-branco</li>
-    <li>As fêmeas eram mães especiais, usando berçários para melhorar as chances de sobrevivência dos filhotes</li>
-    <li>Nome científico Carcharocles Megalodon, significa "dente grande"</li>
-    <li>Maior peixe que já existiu, com os maiores indivíduos medindo até 18 metros</li>
-  </ul>
+<!-- A Tag head é responsável em setar o cabeçalho do HTML. -->
+    <head>
 
-  <form method="POST" action="processar-form.php">
+    <!-- A Tag Title é responsável em dar título a página do Megalaodon. -->
+        <title>Megalodonte - A Lenda</title>
+        <meta charset="utf-8" />
+    </head>
 
-    <div>
-        <form>
-            <span>Preencha suas principais dúvidas e curiosidades sobre esse Tubarãozaum:</span>
-            <input type="text" /> 
+    <!-- A Tag body é responsável indicar o corpo do HTML. -->
+    <body>
+
+        <!-- A Tag H2 é responsável em modificar a fonte da frase. -->
+        <h2>Conheça o Megalodon! O maior tubarão que já existiu.</h2>
+
+        <!-- A Tag span é responsável por criar uma frase. -->
+        <span>Saiba mais do Megalodon no site a seguir:</span>
+
+        <!-- A Tag br é responsável em efetuar uma quebra de linha no texto. -->
+        <br />
+
+        <!-- A Tag a é responsável por anexar e vincular uma frase a um link. -->
+        <a href="https://marsemfim.com.br/conheca-o-megalodon-o-maior-tubarao-que-ja-existiu/">Tubaraummm te amo</a>
+
+        <!-- A Tag p é responsável por criar um paragrafo. -->
+        <p>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos, além disso, com uma força de mordida cinco vezes mais potente que a do tubarão-branco. Contudo, as fêmeas eram mães especiais. Uma análise de dentes de megalodon encontrados em locais de vários continentes sugere que os gigantes costumavam usar berçários para melhorar as chances de sobrevivência de filhotes, tal qual, hoje fazem alguns tubarões.</p>
+        <p>Logo, o nome científico Carcharocles Megalodon, significa "dente grande". Em consequência, durante o tempo de vida foi o maior peixe que já existiu. Britânica.com, "os maiores indivíduos mediam, até mesmo, 18 metros cerca de três vezes o tamanho dos maiores tubarões".</p>
+    
+        <!-- A Tag ul é responsável por criar uma lista desordenada. -->
+        <ul>
+            <!-- A Tag li é responsável por criar uma lista. -->
+            <li>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos</li>
+            <li>Com uma força de mordida cinco vezes mais potente que a do tubarão-branco</li>
+            <li>As fêmeas eram mães especiais, usando berçários para melhorar as chances de sobrevivência dos filhotes</li>
+            <li>Nome científico Carcharocles Megalodon, significa "dente grande"</li>
+            <li>Maior peixe que já existiu, com os maiores indivíduos medindo até 18 metros</li>
+        </ul>
+    
+        <!-- A Tag form é responsável por criar um formulário sobre o Megalodon. -->
+        <form method="POST" action="processar-form.php">
+        
+            <!-- A Tag div cria um bloco genérico para agrupar conteúdos. -->
+            <div>
+                <form>
+                    <span>Preencha suas principais dúvidas e curiosidades sobre esse Tubarãozaum:</span>
+                
+                    <!-- A Tag input é responsável por criar diferentes campos de entrada de dados no documento HTML. -->
+                    <input type="text" /> 
+                </form>
+            </div>
+    
+            <p>O Nosso conteúdo sobre megalodonte agrada você em que nível?</p>
+            <p>
+
+        <!-- A Tag label é responsávelé um elemento HTML que representa uma legenda para melhorar a acessibilidade de um item de interface do usuário. -->
+            <label>
+                <input type="radio" name="avaliacao" value="excelente"> Excelente
+            </label>
+        </p>
+        <p>
+        <label>
+            <input type="radio" name="avaliacao" value="bom"> Bom
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="radio" name="avaliacao" value="regular"> Regular
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="radio" name="avaliacao" value="ruim"> Ruim
+            </label>
+            </p>
+            <p>
+            <label for="comentario">Comentário:</label>
+
+            <!-- A Tag textarea é responsável por representar um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno. -->
+            <textarea id="comentario" name="comentario"></textarea>
+            </p>
+        
+            <div>
+            <span>Você concorda com os Termos de uso da Página?</span>
+            <input type="checkbox" /> 
+            </div>
+        
+            <p>
+                <!-- A Tag button é responsável por inserir um butão no código. -->
+                <button type="submit">Enviar</button>
+            </p>
         </form>
-    </div>
-  
-    <p>O Nosso conteúdo sobre megalodonte agrada você em que nível?</p>
-    <p>
-      <label>
-        <input type="radio" name="avaliacao" value="excelente"> Excelente
-      </label>
-    </p>
-    <p>
-      <label>
-        <input type="radio" name="avaliacao" value="bom"> Bom
-      </label>
-    </p>
-    <p>
-      <label>
-        <input type="radio" name="avaliacao" value="regular"> Regular
-      </label>
-    </p>
-    <p>
-      <label>
-        <input type="radio" name="avaliacao" value="ruim"> Ruim
-      </label>
-    </p>
-    <p>
-      <label for="comentario">Comentário:</label>
-      <textarea id="comentario" name="comentario"></textarea>
-    </p>
-  
-    <div>
-      <span>Você concorda com os Termos de uso da Página?</span>
-      <input type="checkbox" /> 
-    </div>
-  
-    <p>
-      <input type="submit" value="Enviar">
-    </p>
-  </form>
 
   <title>Tabelas sobre Megalodonte</title>
 
+    <!-- A Tag style é responsável para transferir informações de formatação para tags, para conteúdos, dentro das tags de uma página HTML. -->
   <style>
       table {
           border-collapse: collapse;
@@ -105,14 +136,25 @@ DATA: 03/03/2023 -->
 <body>
   <h2>Tabelas sobre Megalodonte</h2>
 
+    <!-- A Tag table é responsável para inserir tabelas ao código. -->
   <table class="table1">
+
+    <!-- A Tag caption define a legenda de uma tabela. -->
       <caption>Tabela 1: Características do Megalodonte</caption>
       <thead>
+
+    <!-- A Tag tr define uma linha em uma tabela. -->
           <tr>
+
+    <!-- A Tag th define um cabeçalho em uma tabela. -->
               <th>Características</th>
               <th>Descrição</th>
           </tr>
+
+    <!-- A Tag th define um cabeçalho em uma tabela. -->
       </thead>
+
+    <!-- A Tag tbody é o espaço onde são colocadas as linhas dos detalhes, de dados, em uma tabela HTML. -->
       <tbody>
           <tr>
               <td>Peso</td>
