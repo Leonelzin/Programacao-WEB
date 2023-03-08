@@ -14,8 +14,51 @@ DATA: 03/03/2023 -->
 
     <!-- A Tag Title é responsável em dar título a página do Megalaodon. -->
         <title>Megalodonte - A Lenda</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8" />
-    </head>
+        <style>
+            table {
+                border-collapse: collapse;
+                margin: auto;
+                text-align: center;
+            }
+      
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+            }
+      
+            th {
+                background-color: #66c2ff;
+                color: white;
+            }
+      
+            .table1 th {
+                background-color: #ff6633;
+            }
+      
+            .table2 th {
+                background-color: #ffcc00;
+            }
+      
+            .table3 th {
+                background-color: #33cc33;
+            }
+      
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+      
+            .container img {
+                margin-top: 20px;
+                max-width: 100%;
+            }
+        </style>
+        </head>
+    <body>
 
     <!-- A Tag body é responsável indicar o corpo do HTML. -->
     <body>
@@ -23,17 +66,10 @@ DATA: 03/03/2023 -->
         <!-- A Tag H2 é responsável em modificar a fonte da frase. -->
         <h2>Conheça o Megalodon! O maior tubarão que já existiu.</h2>
 
-        <!-- A Tag span é responsável por criar uma frase. -->
-        <span>Saiba mais do Megalodon no site a seguir:</span>
-
-        <!-- A Tag br é responsável em efetuar uma quebra de linha no texto. -->
-        <br />
-
-        <!-- A Tag a é responsável por anexar e vincular uma frase a um link. -->
-        <a href="https://marsemfim.com.br/conheca-o-megalodon-o-maior-tubarao-que-ja-existiu/">Tubaraummm te amo</a>
-
         <!-- A Tag p é responsável por criar um paragrafo. -->
-        <p>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos, além disso, com uma força de mordida cinco vezes mais potente que a do tubarão-branco. Contudo, as fêmeas eram mães especiais. Uma análise de dentes de megalodon encontrados em locais de vários continentes sugere que os gigantes costumavam usar berçários para melhorar as chances de sobrevivência de filhotes, tal qual, hoje fazem alguns tubarões.</p>
+        <!-- Adiciona a classe "destaque" ao primeiro parágrafo -->
+        <p>Antecipadamente, o megalodon foi o maior tubarão que já existiu, predador feroz nos mares pré-históricos, além disso, com uma força de mordida cinco vezes mais potente que a do tubarão-branco.</p>
+
         <p>Logo, o nome científico Carcharocles Megalodon, significa "dente grande". Em consequência, durante o tempo de vida foi o maior peixe que já existiu. Britânica.com, "os maiores indivíduos mediam, até mesmo, 18 metros cerca de três vezes o tamanho dos maiores tubarões".</p>
     
         <!-- A Tag ul é responsável por criar uma lista desordenada. -->
@@ -45,63 +81,102 @@ DATA: 03/03/2023 -->
             <li>Nome científico Carcharocles Megalodon, significa "dente grande"</li>
             <li>Maior peixe que já existiu, com os maiores indivíduos medindo até 18 metros</li>
         </ul>
-    
-        <!-- A Tag form é responsável por criar um formulário sobre o Megalodon. -->
-        <form method="POST" action="processar-form.php">
-        
-            <!-- A Tag div cria um bloco genérico para agrupar conteúdos. -->
-            <div>
-                <form>
-                    <span>Preencha suas principais dúvidas e curiosidades sobre esse Tubarãozaum:</span>
-                
-                    <!-- A Tag input é responsável por criar diferentes campos de entrada de dados no documento HTML. -->
-                    <input type="text" /> 
-                </form>
-            </div>
-    
-            <p>O Nosso conteúdo sobre megalodonte agrada você em que nível?</p>
-            <p>
 
-        <!-- A Tag label é responsávelé um elemento HTML que representa uma legenda para melhorar a acessibilidade de um item de interface do usuário. -->
-            <label>
-                <input type="radio" name="avaliacao" value="excelente"> Excelente
-            </label>
-        </p>
-        <p>
-        <label>
-            <input type="radio" name="avaliacao" value="bom"> Bom
-            </label>
-            </p>
-            <p>
-            <label>
-                <input type="radio" name="avaliacao" value="regular"> Regular
-            </label>
-            </p>
-            <p>
-            <label>
-                <input type="radio" name="avaliacao" value="ruim"> Ruim
-            </label>
-            </p>
-            <p>
-            <label for="comentario">Comentário:</label>
+        <title>Tabelas sobre Megalodonte</title>
 
-            <!-- A Tag textarea é responsável por representar um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno. -->
-            <textarea id="comentario" name="comentario"></textarea>
-            </p>
-        
-            <div>
-            <span>Você concorda com os Termos de uso da Página?</span>
-            <input type="checkbox" /> 
-            </div>
-        
-            <p>
-                <!-- A Tag button é responsável por inserir um butão no código. -->
-                <button type="submit">Enviar</button>
-            </p>
-        </form>
+  <h2>Tabelas sobre Megalodonte</h2>
+  <div class="tabelas-container">
 
+            <!-- A Tag table é responsável para inserir tabelas ao código. -->
+            <table class="table1">
+
+            <!-- A Tag caption define a legenda de uma tabela. -->
+            <caption>Tabela 1: Características do Megalodonte</caption>
+            <thead>
+
+            <!-- A Tag tr define uma linha em uma tabela. -->
+                <tr>
+
+            <!-- A Tag th define um cabeçalho em uma tabela. -->
+                    <th>Características</th>
+                    <th>Descrição</th>
+                </tr>
+
+            <!-- A Tag th define um cabeçalho em uma tabela. -->
+            </thead>
+
+            <!-- A Tag tbody é o espaço onde são colocadas as linhas dos detalhes, de dados, em uma tabela HTML. -->
+            <tbody>
+                <tr>
+                    <td>Peso</td>
+                    <td>Até 100 toneladas</td>
+                </tr>
+                <tr>
+                    <td>Comprimento</td>
+                    <td>Até 18 metros</td>
+                </tr>
+                <tr>
+                    <td>Alimentação</td>
+                    <td>Peixes e mamíferos marinhos</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table2">
+            <caption>Tabela 2: Fósseis de Megalodonte</caption>
+            <thead>
+                <tr>
+                    <th>Ano</th>
+                    <th>Localização</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2018</td>
+                    <td>Chile</td>
+                    <td>Fóssil com 2,5 metros de comprimento</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>México</td>
+                    <td>Fóssil com 4,6 metros de comprimento</td>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>Estados Unidos</td>
+                    <td>Fóssil com 7 metros de comprimento</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table3">
+            <caption>Tabela 3: Megalodonte x Tubarão Branco</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Megalodonte</th>
+                    <th>Tubarão Branco</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peso</td>
+                    <td>Até 100 toneladas</td>
+                    <td>Até 2 toneladas</td>
+                </tr>
+                <tr>
+                    <td>Comprimento</td>
+                    <td>Até 18 metros</td>
+                    <td>Até 6 metros</td>
+                </tr>
+                <tr>
+            </tbody>
+        </table>
+    </div>
 
   <head>
+
     <title>Imagens do Megalodonte</title>
 
     <!-- A Tag style é responsável para transferir informações de formatação para tags, para conteúdos, dentro das tags de uma página HTML. -->
@@ -116,138 +191,87 @@ DATA: 03/03/2023 -->
     <p>Aqui estão três imagens impressionantes do megalodonte:</p>
     <div class="image-container">
       <img src="https://img.quizur.com/f/img5ccb1910669822.32890827.jpg?lastEdited=1556814101" alt="Imagem 1 do megalodonte">
-      <p>Esta imagem mostra um megalodonte nadando na superfície do oceano, exibindo sua enorme boca repleta de dentes afiados.</p>
+      <h3>Esta imagem mostra um megalodonte nadando na superfície do oceano, exibindo sua enorme boca repleta de dentes afiados.</h3>
     </div>
     <div class="image-container">
       <img src="https://webpages.ciencias.ulisboa.pt/~cmsilva/Paleotemas/Carcharocles/Carcha01.jpg" alt="Imagem 2 do megalodonte">
-      <p>Nesta imagem, um mergulhador está ao lado de um dente de megalodonte fossilizado, destacando o tamanho incrível deste animal pré-histórico.</p>
+      <h3>Nesta imagem, um mergulhador está ao lado de um dente de megalodonte fossilizado, destacando o tamanho incrível deste animal pré-histórico.</h3>
     </div>
     <div class="image-container">
       <img src="https://i.pinimg.com/236x/c2/65/3a/c2653ab3e54efe316f813c1767b060ba--megalodon-shark-sea-monsters.jpg" alt="Imagem 3 do megalodonte">
-      <p>Esta imagem mostra um modelo em tamanho real do megalodonte em exposição em um museu, permitindo que as pessoas apreciem a escala deste animal lendário.</p>
+      <h3>Esta imagem mostra um modelo em tamanho real do megalodonte em exposição em um museu, permitindo que as pessoas apreciem a escala deste animal lendário.</h3>
     </div>
   </body>
 
-  <title>Tabelas sobre Megalodonte</title>
+     <!-- A Tag form é responsável por criar um formulário sobre o Megalodon. -->
+     <form method="POST" action="processar-form.php">
+        
+        <!-- A Tag div cria um bloco genérico para agrupar conteúdos. -->
+        <div>
+            <form>
+                <h2>Formulário de Pesquisa</h2>
+                <span>Preencha suas principais dúvidas e curiosidades sobre esse Tubarãozaum:</span>
+            
+                <!-- A Tag input é responsável por criar diferentes campos de entrada de dados no documento HTML. -->
+                <input type="text" /> 
+            </form>
+        </div>
 
-  <style>
-      table {
-          border-collapse: collapse;
-          margin: auto;
-          text-align: center;
-      }
+        <p>O Nosso conteúdo sobre megalodonte agrada você em que nível?</p>
+        <p>
 
-      th, td {
-          border: 1px solid black;
-          padding: 10px;
-      }
+    <!-- A Tag label é responsável um elemento HTML que representa uma legenda para melhorar a acessibilidade de um item de interface do usuário. -->
+        <label>
+            <input type="radio" name="avaliacao" value="excelente"> Excelente
+        </label>
+    </p>
+    <p>
+    <label>
+        <input type="radio" name="avaliacao" value="bom"> Bom
+        </label>
+        </p>
+        <p>
+        <label>
+            <input type="radio" name="avaliacao" value="regular"> Regular
+        </label>
+        </p>
+        <p>
+        <label>
+            <input type="radio" name="avaliacao" value="ruim"> Ruim
+        </label>
+        </p>
+        <p>
+        <label for="comentario">Comentário:</label>
 
-      th {
-          background-color: #66c2ff;
-          color: white;
-      }
+        <!-- A Tag textarea é responsável por representar um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno. -->
+        <textarea id="comentario" name="comentario"></textarea>
+        </p>
+    
+        <div>
+        <span>Você concorda com os Termos de uso da Página?</span>
+        <input type="checkbox" /> 
+        </div>
+    
+        <p>
+            <!-- A Tag button é responsável por inserir um butão no código. -->
+            <button type="submit">Enviar</button>
+        </p>
+    </form>   
 
-      .table1 th {
-          background-color: #ff6633;
-      }
+    <!-- A Tag span é responsável por criar uma frase. -->
+    <span>Saiba mais do Megalodon no site a seguir:</span>
 
-      .table2 th {
-          background-color: #ffcc00;
-      }
+    <!-- A Tag br é responsável em efetuar uma quebra de linha no texto. -->
+    <br />
 
-      .table3 th {
-          background-color: #33cc33;
-      }
-  </style>
-</head>
-<body>
-  <h2>Tabelas sobre Megalodonte</h2>
-<h2>Tabelas sobre Megalodonte</h2>
+    <!-- A Tag a é responsável por anexar e vincular uma frase a um link. -->
+    <a href="https://marsemfim.com.br/conheca-o-megalodon-o-maior-tubarao-que-ja-existiu/">Tubaraummm te amo</a>
 
-    <!-- A Tag table é responsável para inserir tabelas ao código. -->
-  <table class="table1">
-
-    <!-- A Tag caption define a legenda de uma tabela. -->
-      <caption>Tabela 1: Características do Megalodonte</caption>
-      <thead>
-
-    <!-- A Tag tr define uma linha em uma tabela. -->
-          <tr>
-
-    <!-- A Tag th define um cabeçalho em uma tabela. -->
-              <th>Características</th>
-              <th>Descrição</th>
-          </tr>
-
-    <!-- A Tag th define um cabeçalho em uma tabela. -->
-      </thead>
-
-    <!-- A Tag tbody é o espaço onde são colocadas as linhas dos detalhes, de dados, em uma tabela HTML. -->
-      <tbody>
-          <tr>
-              <td>Peso</td>
-              <td>Até 100 toneladas</td>
-          </tr>
-          <tr>
-              <td>Comprimento</td>
-              <td>Até 18 metros</td>
-          </tr>
-          <tr>
-              <td>Alimentação</td>
-              <td>Peixes e mamíferos marinhos</td>
-          </tr>
-      </tbody>
-  </table>
-
-  <table class="table2">
-      <caption>Tabela 2: Fósseis de Megalodonte</caption>
-      <thead>
-          <tr>
-              <th>Ano</th>
-              <th>Localização</th>
-              <th>Descrição</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td>2018</td>
-              <td>Chile</td>
-              <td>Fóssil com 2,5 metros de comprimento</td>
-          </tr>
-          <tr>
-              <td>2016</td>
-              <td>México</td>
-              <td>Fóssil com 4,6 metros de comprimento</td>
-          </tr>
-          <tr>
-              <td>2014</td>
-              <td>Estados Unidos</td>
-              <td>Fóssil com 7 metros de comprimento</td>
-          </tr>
-      </tbody>
-  </table>
-
-  <table class="table3">
-      <caption>Tabela 3: Megalodonte x Tubarão Branco</caption>
-      <thead>
-          <tr>
-              <th></th>
-              <th>Megalodonte</th>
-              <th>Tubarão Branco</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td>Peso</td>
-              <td>Até 100 toneladas</td>
-              <td>Até 2 toneladas</td>
-          </tr>
-          <tr>
-              <td>Comprimento</td>
-              <td>Até 18 metros</td>
-              <td>Até 6 metros</td>
-          </tr>
-          <tr>
+    <!-- A Tag form é responsável diz respeito ao rodapé de nosso site, então quando quisermos criar um rodapé para nossa aplicação é importante usar a tag footer. -->
+	<footer>
+        <!-- A Tag copy é responsável por copiar dados no HTML. -->
+		<p>&copy; Leonel Site's - 2023 Todos os direitos reservados.</p>
+	</footer>
 
 </body>
 
