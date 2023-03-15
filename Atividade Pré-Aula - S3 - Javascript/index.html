@@ -1,0 +1,35 @@
+<!-- Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 14/03/2023 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Jogo de Memória</title>
+	<style>
+		#tabuleiro {
+			display: flex;
+			flex-wrap: wrap;
+			width: 600px;
+			margin: 0 auto;
+		}
+		.carta {
+			width: 100px;
+			height: 100px;
+			background-color: #ccc;
+			background-size: cover;
+			margin: 5px;
+			cursor: pointer;
+		}
+		.carta.virada {
+			background-color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<h1>Jogo de Memória</h1>
+	<p>Encontre todos os pares de cartas em 60 segundos.</p>
+	<div id="tempo">60</div>
+	<div id="tabuleiro"></div>
