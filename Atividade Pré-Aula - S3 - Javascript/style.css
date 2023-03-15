@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* Estilos do Tabuleiro do Jogo */
 .game-board {
     margin: 20px auto;
@@ -19,27 +20,33 @@ body {
     padding: 20px;
     border-radius: 5px;
 }
+
 .game-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .game-header h1 {
     font-size: 36px;
     margin: 0;
 }
+
 .game-header p {
     font-size: 20px;
     margin: 0;
 }
+
 .game-header #timer {
     font-weight: bold;
 }
+
 .game-container {
     display: flex;
     flex-wrap: wrap;
 }
+
 .card {
     width: 120px;
     height: 120px;
@@ -55,12 +62,13 @@ body {
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
 }
+
 .card.flipped {
     transform: rotateY(180deg);
 }
+
 /* Estilos do Resultado */
 .result-container {
-    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -73,11 +81,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .result-container h2 {
     font-size: 50px;
     color: #fff;
     margin-bottom: 20px;
 }
+
 #play-again {
     padding: 10px 20px;
     font-size: 30px;
@@ -88,6 +98,7 @@ body {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
+
 #play-again:hover {
     background-color: #333;
     color: #fff;

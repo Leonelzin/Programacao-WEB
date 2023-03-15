@@ -40,7 +40,10 @@ function startGame() {
         card.dataset.cardIndex = i;
         card.innerHTML =
             `<div class="front"></div>
-    <div class="back" style="background-image: url('img/${cardImages[cardNumbers[i]]}');"></div>`;
+            <div class="back" style="background-image: url('img/${cardImages[cardNumbers[i]]}');"></div>`;
+        card.addEventListener("click", function() {
+            flipCard(card);
+        });
         gameContainer.appendChild(card);
     }
 
@@ -82,10 +85,6 @@ function startGame() {
                 enableCards();
                 firstCard = null;
                 secondCard = null;
-                if (confirm("Você deseja jogar novamente?")) {
-                    // Perdeu o jogo
-                    endGame(false);
-                }
             }, 1000);
         }
     }
@@ -110,22 +109,11 @@ function startGame() {
             // Perdeu o jogo
             endGame(false);
         };
-
+        if (gameTimer) {
+            clearTimeout(gameTimer);
+        }
+        gameTimer = setTimeout(() => {
+            updateTimer();
+        }, 1000);
     }
 }
-
-    // Código para exibir mensagem de vitória/derrota aqui
-    function endGame(hasWon) {
-        // Adicione um ouvinte de eventos para o botão "Jogar novamente"
-        const playAgainButton = document.querySelector(".play-again");
-        playAgainButton.addEventListener("click", playAgain);
-  
-    // Remova o listener de evento do botão "Jogar novamente" no final do jogo
-    function playAgain() {
-        playAgainButton.removeEventListener("click", playAgain);
-            startGame();
-    }
-}
-
-    // Chame a função startGame() quando a página for carregada
-    window.addEventListener("load", startGame);
