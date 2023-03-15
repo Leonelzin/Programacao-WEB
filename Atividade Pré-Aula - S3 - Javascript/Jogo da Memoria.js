@@ -111,12 +111,21 @@ function startGame() {
             endGame(false);
         };
 
+    }
+}
+
+    // Código para exibir mensagem de vitória/derrota aqui
+    function endGame(hasWon) {
         // Adicione um ouvinte de eventos para o botão "Jogar novamente"
         const playAgainButton = document.querySelector(".play-again");
-        playAgainButton.addEventListener("click", startGame);
+        playAgainButton.addEventListener("click", playAgain);
+  
+    // Remova o listener de evento do botão "Jogar novamente" no final do jogo
+    function playAgain() {
+        playAgainButton.removeEventListener("click", playAgain);
+            startGame();
     }
+}
 
     // Chame a função startGame() quando a página for carregada
     window.addEventListener("load", startGame);
-
-}
