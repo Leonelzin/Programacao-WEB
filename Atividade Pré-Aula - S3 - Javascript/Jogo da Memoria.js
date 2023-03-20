@@ -5,8 +5,9 @@
 
 // Crie uma lista com as imagens dos pares de cartas
 function startGame() {
+    setCardSize();
 
-    const cardImages = [
+    const cardImages = [ 
         "img1.jpg",
         "img2.jpg",
         "img3.jpg",
@@ -17,30 +18,29 @@ function startGame() {
         "img8.jpg"
     ];
 
+    if (numCards % 2 !== 0) {
+        throw new Error("O número de cartas deve ser par");
+    }
+
     // Defina o número de cartas no jogo
     const numCards = cardImages.length * 2;
 
     // Crie uma lista com os números das cartas
     const cardNumbers = [];
-    for (let i = 0; i < numCards; i++) {
-        cardNumbers.push(i % cardImages.length);
-    }
-
-    // Embaralhe a lista de números de cartas
-    for (let i = cardNumbers.length - 1; i > 0; i--) {
+    for (let i = numCards - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [cardNumbers[i], cardNumbers[j]] = [cardNumbers[j], cardNumbers[i]];
     }
 
-    // Crie a estrutura HTML das cartas
-    const gameContainer = document.querySelector(".game-container");
+    // Embaralhe a lista de números de cartas
+    const gameContainer = document.querySelector(".game-container") || document.body;
     for (let i = 0; i < numCards; i++) {
         const card = document.createElement("div");
         card.classList.add("card");
         card.dataset.cardIndex = i;
         card.innerHTML =
             `<div class="front"></div>
-            <div class="back" style="background-image: url('img/${cardImages[cardNumbers[i]]}');"></div>`;
+            <div class="back" style="background-image: url('img/${cardImages[cardNumbers[i]]}')"></div>`;
         card.addEventListener("click", function() {
             flipCard(card);
         });
@@ -116,4 +116,23 @@ function startGame() {
             updateTimer();
         }, 1000);
     }
+
+    function setCardSize() {
+        const cardWidth = window.innerWidth < 768 ? (window.innerWidth - 40) / 4 : 120;
+        const cardHeight = window.innerWidth < 768 ? (window.innerHeight - 200) / 4 : 160;
+        const cards = document.querySelectorAll(".card");
+        cards.forEach(card => {
+            card.style.width = cardWidth + "px";
+            card.style.height = cardHeight + "px";
+        });
+    }
+
 }
+
+window.addEventListener("load", function() {
+    startGame();
+});
+
+window.addEventListener("resize", function() {
+    setCardSize();
+});

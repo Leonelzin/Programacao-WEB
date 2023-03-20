@@ -48,19 +48,26 @@ body {
 }
 
 .card {
-    width: 120px;
-    height: 120px;
+    width: 150px; /* largura do card */
+    height: 200px; /* altura do card */
     background-color: #333;
-    margin: 10px;
-    display: flex;
+    margin: 10px; /* espaçamento entre os cards */
+    display: inline-block; /* alinha os cards na mesma linha */
     justify-content: center;
     align-items: center;
     font-size: 50px;
     color: #fff;
-    border-radius: 5px;
+    border: 2px solid black; /* borda do card */
+    border-radius: 10px; /* borda arredondada do card */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
+}
+
+.card img {
+    width: 100%; /* preenche todo o espaço disponível do card */
+    height: 100%; /* preenche todo o espaço disponível do card */
+    object-fit: cover; /* redimensiona a imagem sem perder sua proporção */
 }
 
 .card.flipped {
