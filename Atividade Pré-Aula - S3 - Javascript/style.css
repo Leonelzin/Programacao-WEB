@@ -5,8 +5,15 @@ DATA: 14/03/2023 */
 
 /* Estilos Gerais */
 body {
+    background-image: url("https://downloadwap.com/thumbs2/wallpapers/p2ls/new/37/bPcnsA8b.jpg");
+    background-color: #3d3d3d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
 }
@@ -15,7 +22,7 @@ body {
 .game-board {
     margin: 20px auto;
     width: 600px;
-    background-color: #fff;
+    background-color: #02bef7;
     border: 5px solid #333;
     padding: 20px;
     border-radius: 5px;

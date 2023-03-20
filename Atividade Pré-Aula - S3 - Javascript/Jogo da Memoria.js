@@ -3,6 +3,7 @@
 //Dev: Douglas Leonel de Almeida
 //DATA: 14/03/2023
 
+
 // Crie uma lista com as imagens dos pares de cartas
 function startGame() {
     setCardSize();
@@ -130,12 +131,12 @@ function startGame() {
 
 }
 
-// Redimensionamento para ajustar o tamanho das cartas quando a tela é carregada:
-window.addEventListener("load", function() {
-    startGame();
-});
+    // Redimensionamento para ajustar o tamanho das cartas quando a tela é carregada:
+    window.addEventListener("load", function() {
+        startGame();
+    });
 
-// Redimensionamento para ajustar o tamanho das cartas quando a tela é redimensionada:
-window.addEventListener("resize", function() {
-    setCardSize();
-});
+    // Redimensionamento para ajustar o tamanho das cartas quando a tela é redimensionada:
+    window.addEventListener("resize", function() {
+        setCardSize();
+    });
