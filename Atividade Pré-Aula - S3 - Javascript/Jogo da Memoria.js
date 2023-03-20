@@ -117,6 +117,7 @@ function startGame() {
         }, 1000);
     }
 
+    // Função para definir o tamanho das cartas com base no tamanho da tela
     function setCardSize() {
         const cardWidth = window.innerWidth < 768 ? (window.innerWidth - 40) / 4 : 120;
         const cardHeight = window.innerWidth < 768 ? (window.innerHeight - 200) / 4 : 160;
@@ -129,10 +130,12 @@ function startGame() {
 
 }
 
+// Redimensionamento para ajustar o tamanho das cartas quando a tela é carregada:
 window.addEventListener("load", function() {
     startGame();
 });
 
+// Redimensionamento para ajustar o tamanho das cartas quando a tela é redimensionada:
 window.addEventListener("resize", function() {
     setCardSize();
 });
