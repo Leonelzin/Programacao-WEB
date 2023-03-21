@@ -3,7 +3,6 @@
 //Dev: Douglas Leonel de Almeida
 //DATA: 14/03/2023
 
-
 // Crie uma lista com as imagens dos pares de cartas
 function startGame() {
     setCardSize();
