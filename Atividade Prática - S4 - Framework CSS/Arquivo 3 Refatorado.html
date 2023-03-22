@@ -1,0 +1,159 @@
+<!-- Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 22/03/2023 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megalodonte - A Lenda</title>
+
+    <!-- Adicionando a biblioteca Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+
+</head>
+
+<script>
+    window.addEventListener('scroll',
+        function() {
+            const navbar = document
+                .querySelector(
+                    '.navbar');
+
+            if (window.scrollY > 50) {
+                navbar.classList.add(
+                    'scrolled');
+            } else {
+                navbar.classList.remove(
+                    'scrolled');
+            }
+        });
+</script>
+
+<!-- Adicionando o menu navegável -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Megalodonte</a>
+    <button class="navbar-toggler" type="button"
+    data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false"
+    aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Arquivo 1 Refatorado.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Arquivo 2 Refatorado.html">Formulário</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Arquivo 3 Refatorado.html">Tabelas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#imagens">Imagens</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Utilizando a classe "container" para definir um container principal da página -->
+<div class="container">
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Tabelas sobre o Megalodonte</h1>
+        </div>
+    </div>
+    <div class="tabelas-container">
+        <table class="table1">
+            <p class="lead">Características do Megalodonte</p>
+            <thead>
+                <tr>
+                    <th>Características</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peso</td>
+                    <td>Até 100 toneladas</td>
+                </tr>
+                <tr>
+                    <td>Comprimento</td>
+                    <td>Até 18 metros</td>
+                </tr>
+                <tr>
+                    <td>Alimentação</td>
+                    <td>Peixes e mamíferos marinhos</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table2">
+            <p class="lead">Fósseis de Megalodonte</p>
+            <thead>
+                <tr>
+                    <th>Ano</th>
+                    <th>Localização</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2018</td>
+                    <td>Chile</td>
+                    <td>Fóssil com 2,5 metros
+                        de comprimento</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>México</td>
+                    <td>Fóssil com 4,6 metros
+                        de comprimento</td>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>Estados Unidos</td>
+                    <td>Fóssil com 7 metros de
+                        comprimento</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table3">
+            <p class="lead">Megalodonte x Tubarão Branco</p>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Megalodonte</th>
+                    <th>Tubarão Branco</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peso</td>
+                    <td>Até 100 toneladas</td>
+                    <td>Até 2 toneladas</td>
+                </tr>
+                <tr>
+                    <td>Comprimento</td>
+                    <td>Até 18 metros</td>
+                    <td>Até 6 metros</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Utilizando a classe "mt-5" para criar uma margem no topo e "text-muted" para definir o texto do rodapé em cinza -->
+    <footer class="mt-5 text-muted mx-auto text-center">
+        <p>&copy; Leonel Site's - 2023 Todos
+            os direitos reservados.</p>
+
+    </footer>
+</div>

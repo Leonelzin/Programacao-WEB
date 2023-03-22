@@ -7,7 +7,7 @@ DATA: 22/03/2023 */
 body {
     background-image: url('https://wallpaperaccess.com/full/2199269.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center cover;
 }
 
 .jumbotron {
@@ -32,4 +32,33 @@ body {
 
 .text-muted {
     color: #fff;
+}
+/* Estilos para as tabelas */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #0077cc;
+    color: #ffffff;
+}
+/* Estilos para as tabelas alternadas */
+.table1 th {
+    background-color: #ff6633;
+}
+.table2 th {
+    background-color: #ffcc00;
+}
+.table3 th {
+    background-color: #33cc33;
+}
+/* Estilos para as linhas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
