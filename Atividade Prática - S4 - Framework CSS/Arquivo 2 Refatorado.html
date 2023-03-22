@@ -1,0 +1,148 @@
+<!-- Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 22/03/2023 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megalodonte - A Lenda</title>
+
+    <!-- Adicionando a biblioteca Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    
+</head>
+
+    <script>
+        window.addEventListener('scroll', function () {
+        const navbar = document.querySelector('.navbar');
+
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+        });
+    </script>
+
+    <!-- Adicionando o menu navegável -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Megalodonte</a>
+        <button class="navbar-toggler" type="button"
+        data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Arquivo 1 Refatorado.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Arquivo 2 Refatorado.html">Formulário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tabelas">Tabelas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#imagens">Imagens</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Utilizando a classe "container" para definir um container principal da página -->
+    <div class="container">
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Formulário de Pesquisa</h1>
+            </div>
+        </div>
+
+        <div>
+            <p class="lead">Preencha suas principais dúvidas e curiosidades sobre esse Tubarãozaum:</p>
+        </div>
+
+        <div>
+            <!-- Adicione o formulário aqui -->
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name"
+                    placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control"
+                    id="email" placeholder="Digite seu email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Assunto:</label>
+                    <input type="text" class="form-control" id="subject"
+                    placeholder="Digite o assunto">
+                </div>
+                <div class="form-group">
+                    <label for="message">Dúvidas:</label>
+                    <textarea class="form-control" id="message"
+                    rows="3" placeholder="Digite sua dúvida"></textarea>
+                <div>
+                    <p class="lead">O Nosso conteúdo sobre megalodonte agrada você em que nível?</p>
+                </div>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input"
+                    id="check1">
+                    <label class="form-check-label" for="check1">Excelente</label>
+                </div>
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input"
+                    id="check2">
+                    <label class="form-check-label" for="check2">Bom</label>
+                </div>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input"
+                id="check1">
+                <label class="form-check-label" for="check1">Regular</label>
+            </div>
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input"
+                id="check2">
+                <label class="form-check-label" for="check2">Ruim</label>
+            </div>
+                <div class="form-group">
+                    <p class="lead">Você concorda com nossos Termos de Uso?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio"
+                        name="options" id="option1"
+                        value="option1">
+                        <label class="form-check-label" for="option1">Sim</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio"
+                        name="options" id="option2"
+                        value="option2">
+                        <label class="form-check-label" for="option2">Não</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+
+        <!-- Utilizando a classe "mt-5" para criar uma margem no topo e "text-muted" para definir o texto do rodapé em cinza -->
+        <footer class="mt-5 text-muted mx-auto text-center">
+            <p>&copy; Leonel Site's - 2023 Todos
+                os direitos reservados.</p>
+
+            </style>
+        </footer>
+    </div>

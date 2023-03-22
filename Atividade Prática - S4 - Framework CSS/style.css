@@ -1,0 +1,35 @@
+/* Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 22/03/2023 */
+
+/* Adicionando o estilo CSS personalizado */
+body {
+    background-image: url('https://wallpaperaccess.com/full/2199269.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #3C8DAD;
+    border-color: #3C8DAD;
+}
+
+.btn-primary:hover {
+    background-color: #29788E;
+    border-color: #29788E;
+}
+
+.text-muted {
+    color: #fff;
+}
