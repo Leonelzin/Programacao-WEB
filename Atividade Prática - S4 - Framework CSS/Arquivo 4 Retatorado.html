@@ -1,0 +1,97 @@
+<!-- Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 22/03/2023 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megalodonte - A Lenda</title>
+
+    <!-- Adicionando a biblioteca Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleimg.css">
+    <link rel="stylesheet" href="navbar.css">
+
+</head>
+
+<script>
+    window.addEventListener('scroll',
+        function() {
+            const navbar = document
+                .querySelector(
+                    '.navbar');
+
+            if (window.scrollY > 50) {
+                navbar.classList.add(
+                    'scrolled');
+            } else {
+                navbar.classList.remove(
+                    'scrolled');
+            }
+        });
+</script>
+
+<!-- Adicionando o menu navegável -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Megalodonte</a>
+    <button class="navbar-toggler" type="button"
+    data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false"
+    aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Arquivo 1 Refatorado.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Arquivo 2 Refatorado.html">Formulário</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Arquivo 3 Refatorado.html">Tabelas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Arquivo 4 Retatorado.html">Imagens</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Utilizando a classe "container" para definir um container principal da página -->
+<div class="container">
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Imagens do Megalodonte</h1>
+
+          </head>
+        </div>
+          <body>
+            <p class="lead">Aqui estão três imagens impressionantes do megalodonte:</p>
+            <div class="image-container">
+                <img src="https://img.quizur.com/f/img5ccb1910669822.32890827.jpg?lastEdited=1556814101" alt="Imagem 1 do megalodonte">
+                <p class="lead">Esta imagem mostra um megalodonte nadando na superfície do oceano, exibindo sua enorme boca repleta de dentes afiados.</p>
+              </div>
+              <div class="image-container">
+                <img src="https://webpages.ciencias.ulisboa.pt/~cmsilva/Paleotemas/Carcharocles/Carcha01.jpg" alt="agem 2 do megalodonte">
+                <p class="lead">Nesta imagem, um mergulhador está ao lado de um dente de megalodonte fossilizado, destacando o tamanho incrível deste animal pré-histórico.</p>
+              </div>
+              <div class="image-container">
+                <img src="https://i.pinimg.com/236x/c2/65/3a/c2653ab3e54efe316f813c1767b060ba--megalodon-shark-seasters.jpg" alt="Imagem 3 do megalodonte">
+                <p class="lead">Esta imagem mostra um modelo em tamanho real do megalodonte em exposição em um museu, permitindo que as pessoas apreciem a escala deste animal lendário.</p>
+              </div>
+          </body>
+
+    <!-- Utilizando a classe "mt-5" para criar uma margem no topo e "text-muted" para definir o texto do rodapé em cinza -->
+    <footer class="mt-5 text-muted mx-auto text-center">
+        <p>&copy; Leonel Site's - 2023 Todos
+            os direitos reservados.</p>
+
+    </footer>
+</div>

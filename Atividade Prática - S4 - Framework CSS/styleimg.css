@@ -6,8 +6,8 @@ DATA: 22/03/2023 */
 /* Adicionando o estilo CSS personalizado */
 body {
     background-image: url('https://wallpaperaccess.com/full/2199269.jpg');
-    background-size: cover;
-    background-position: center cover;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .jumbotron {
