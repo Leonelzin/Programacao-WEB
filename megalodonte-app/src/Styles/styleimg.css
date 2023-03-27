@@ -1,0 +1,75 @@
+/* Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 27/03/2023 */
+
+/* Adicionando o estilo CSS personalizado */
+body {
+    background-image: url('https://wallpaperaccess.com/full/2199269.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #3C8DAD;
+    border-color: #3C8DAD;
+}
+
+.btn-primary:hover {
+    background-color: #29788E;
+    border-color: #29788E;
+}
+
+.text-muted {
+    color: #fff;
+}
+/* Estilos para as tabelas */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #0077cc;
+    color: #ffffff;
+}
+/* Estilos para as tabelas alternadas */
+.table1 th {
+    background-color: #ff6633;
+}
+.table2 th {
+    background-color: #ffcc00;
+}
+.table3 th {
+    background-color: #33cc33;
+}
+/* Estilos para as linhas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .image-container img {
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
