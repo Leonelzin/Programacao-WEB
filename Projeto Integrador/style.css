@@ -1,0 +1,49 @@
+/* Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 29/03/2023 */
+
+body {
+  background-image: url("https://images6.alphacoders.com/368/368872.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center cover;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #111;
+}
+
+section {
+  margin-top: 20px;
+}
