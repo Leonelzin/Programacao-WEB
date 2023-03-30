@@ -1,0 +1,40 @@
+<!-- Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 30/03/2023 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Consultas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta de Consultas</h1>
+    </header>
+    <main>
+        <form id="consulta-form">
+            <label for="paciente">Paciente:</label>
+            <input type="text" id="paciente" required>
+
+            <label for="medico" class="second-label">Médico:</label>
+            <input type="text" id="medico" required>
+
+            <label for="data" class="second-label">Data:</label>
+            <input type="date" id="data" required>
+
+            <label for="horario" class="second-label">Horário:</label>
+            <input type="time" id="horario" required>
+
+            <input type="submit" value="Agendar Consulta" class="second-label">
+        </form>
+        <div id="consultas-list">
+            <!-- Consultas agendadas serão exibidas aqui -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
