@@ -1,0 +1,14 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 11/04/2023 
+
+Uma Single Page Application (SPA) é um tipo de aplicativo web que carrega uma única página HTML e atualiza o conteúdo dinamicamente, sem precisar recarregar a página inteira. As SPAs são criadas com o objetivo de fornecer uma experiência de usuário mais rápida e fluída, já que as atualizações são feitas de forma assíncrona, sem interromper o fluxo do usuário.
+
+Para criar uma SPA, são utilizados frameworks como React, Vue.js ou Angular. Essas ferramentas permitem criar interfaces interativas e reativas, que podem responder instantaneamente às ações do usuário.
+
+As SPAs também oferecem outras vantagens, como a capacidade de trabalhar offline, a possibilidade de criar aplicativos híbridos para desktop e dispositivos móveis, além de uma melhor indexação por mecanismos de busca.
+
+No entanto, as SPAs também apresentam alguns desafios, como a necessidade de gerenciar o estado da aplicação de forma eficiente e a compatibilidade com navegadores antigos.
+
+Em resumo, a utilização de SPAs é uma abordagem moderna e eficiente para o desenvolvimento de aplicativos web, que pode oferecer uma melhor experiência de usuário e recursos avançados, mas que requer habilidades técnicas específicas e conhecimento das melhores práticas de desenvolvimento.
