@@ -1,0 +1,12 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Douglas Leonel de Almeida
+DATA: 24/04/2023
+
+Podemos pensar em um restaurante como uma analogia para entender os conceitos de frontend, backend e API REST.
+
+O frontend seria a parte do restaurante que o cliente tem contato direto, como o menu, a decoração e o atendimento dos garçons. Assim como no desenvolvimento web, o frontend é a parte que o usuário final interage, como a interface gráfica, os botões e a navegação do site.
+
+Já o backend seria a parte do restaurante que o cliente não vê, como a cozinha, o estoque de alimentos e o sistema de gerenciamento de pedidos. No desenvolvimento web, o backend é a parte que lida com a lógica e processamento dos dados, como o banco de dados, os servidores e a lógica de negócios.
+
+Por fim, a API REST seria como o garçom que leva o pedido do cliente para a cozinha e traz a resposta de volta. A API REST é uma interface que permite que o frontend (cliente) faça solicitações ao backend (servidor) para acessar, manipular e visualizar dados. Assim como o garçom, a API REST atua como um intermediário entre o frontend e o backend.
