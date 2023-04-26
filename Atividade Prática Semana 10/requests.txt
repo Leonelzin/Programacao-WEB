@@ -1,0 +1,21 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 25/04/2023
+
+Teste dos endpoints:
+Utilizando um cliente HTTP, como o Postman ou Insomnia, para testar os endpoints.
+
+GET /megalodonte: retorna a lista de todos os megalodontes
+
+GET /megalodonte/:id: retorna o megalodonte com o ID especificado
+
+POST /megalodonte: adiciona um novo megalodonte
+
+PUT /megalodonte/:id: atualiza o megalodonte
+
+DELETE /megalodonte/:id: remove o megalodonte com o ID especificado
+
+A lista de megalodontes é definida como uma lista estática no código, mas poderia ser obtida a partir de um banco de dados ou outra fonte de dados dinâmica.
+
+Com isso, é possível criar um CRUD básico de megalodontes utilizando npm, express e nodemon.

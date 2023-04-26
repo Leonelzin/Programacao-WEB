@@ -1,0 +1,12 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 25/04/2023
+
+É possível utilizar o JavaScript como backend por meio da utilização de um ambiente de execução do JavaScript, como o Node.js. O Node.js é um ambiente de tempo de execução do JavaScript construído com o motor de JavaScript V8 do Google Chrome. Ele permite que os desenvolvedores criem aplicativos web escaláveis e de alta performance usando apenas JavaScript no lado do servidor.
+
+O Node.js possui um conjunto de módulos integrados que permitem a comunicação com o sistema de arquivos, redes e outros recursos do sistema operacional. Além disso, ele possui um sistema de gerenciamento de pacotes chamado npm, que permite que os desenvolvedores instalem e gerenciem pacotes de terceiros facilmente.
+
+Com o Node.js, é possível criar servidores web, APIs, aplicativos de linha de comando e muito mais. Além disso, é possível utilizar bancos de dados populares, como MySQL e MongoDB, com o Node.js.
+
+Ao utilizar o JavaScript como backend, os desenvolvedores podem ter benefícios como a utilização de uma única linguagem de programação em todo o projeto, desde o frontend até o backend. Além disso, o JavaScript é uma linguagem popular e possui uma grande comunidade de desenvolvedores e recursos disponíveis, o que facilita o desenvolvimento e manutenção do projeto.
