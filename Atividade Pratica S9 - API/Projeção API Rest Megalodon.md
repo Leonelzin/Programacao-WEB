@@ -1,7 +1,7 @@
-//Curso de Engenharia de Software - UniEVANGÉLICA
-//Disciplina de Programação Web
-//Dev: Douglas Leonel de Almeida
-//DATA: 24/04/2023
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 24/04/2023
 
 GET /api/sharks - recuperar a lista de tubarões
 
