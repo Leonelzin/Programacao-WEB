@@ -1,0 +1,12 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 03/05/2023
+
+Para implementar os CRUDs utilizando classes específicas para as camadas de controller e model, é necessário criar as seguintes classes:
+
+MegalodonteController: classe responsável por controlar as requisições relacionadas aos megalodontes, recebendo as requisições HTTP e invocando os métodos adequados do MegalodonteModel para realizar as operações no banco de dados.
+
+MegalodonteModel: classe responsável por interagir com o banco de dados, realizando as operações de CRUD relacionadas aos megalodontes.
+
+Segue abaixo a implementação das duas classes:
