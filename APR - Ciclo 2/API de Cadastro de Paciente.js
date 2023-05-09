@@ -3,7 +3,6 @@
 //Dev: Douglas Leonel de Almeida
 //DATA: 09/05/2023
 
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
