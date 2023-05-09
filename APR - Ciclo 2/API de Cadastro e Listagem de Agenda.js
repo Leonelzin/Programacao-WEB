@@ -3,12 +3,6 @@
 //Dev: Douglas Leonel de Almeida
 //DATA: 09/05/2023
 
-//Curso de Engenharia de Software - UniEVANGÉLICA
-//Disciplina de Programação Web
-//Dev: Douglas Leonel de Almeida
-//DATA: 09/05/2023
-//Atividade Individual
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
