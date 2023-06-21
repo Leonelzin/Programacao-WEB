@@ -1,0 +1,25 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 20/06/2023
+
+1 - A Request frontend se faz pelo usuário ditando a URL do site | aplicação fornecida ao mesmo. 
+Quando, ao pesquisar, terá acesso ao servidor de homologação visual (sendo o próprio frontend sendo executado por algum framework terceiro, como o React por exemplo.
+
+2 - A Request é enviada para o server Backend através da API Rest desenvolvida na aplicação referente utilizada.
+No caso, a camada WEB irá demandar a request para o SYS (sistema), que terá seu retorno via API, concluindo o passo e tendo a devolutiva C.R.U.D, muito provavelmente no caso, uma request [GET] através de um endpoint /api/{contéudo}.
+
+3 - O Servidor Backend determina o destino da request simplesmente pelo mapeamento inserido dentro da API Rest, como por exemplo, a família que aquele endpoint se encontra, qual request C.R.U.D está sendo requerida e qual funcionalidade no Sistema via Camada WEB ou API está sendo solicitada pelo usuário.
+
+4 - No Backend, o roteador será responsável por emitir um ruido captável atráves do servidor hospedado, enviando um READ direcionao ao mesmo. 
+Já o controlador, irá gerenciar diretamente no controle da aplicação de determinado processo executado dentro do projeto.
+
+5 - O Model terá a objetivo de modular quais dados estão sendo enviados, requeridos, criados ou modificados pelo BD, no caso de uma request [PUT] através do endpoint /api/{contéudo}, a objetificação direta de o que será demandado a modificação | alteração da requisição no Banco de Dados.
+
+6 - A Criação e envio da resposta no servidor Backend funcionará através das request's [POST] 'criar dados' e [GET] 'recuperar dados'.
+Como? Simples, uma aplicação sendo WEB homologada ou não, necessita ter vinculo direto no SYS através da API, essas requisições serão responsáveis por garantir que o usuário consiga demandar uma criação de um conteúdo e uma obtenção de resposta utilizando alguma funcionalidade do sistema. 
+Exemplo: Um Sistema de Login | Cadastro de User.
+
+7 - O processamento de resposta no Frontend pode ser visualizado pelo usuário em tempo real através da função em navegadores como o Google Chrome 'DevTools', este devolve todas as request's inseridas na página atráves da listagem de Network.
+Sendo assim, trabalhando mais a fundo essa questão, podemos ditar que quando o usuário usar a funcionalidade LAN dentro de um roteador de internet por exemplo (access point), alterando seu IP, surtirá as request's [PUT] e [GET], outrora pois os mesmos serão responsáveis pela modificação | devolução de contéudo dentro do sistema, atualizando para o usuário os dados informados apos salvar e aplicar as configurações inseridas.
+Isso também será uma função prototipada caso o usuário também crie um servidor DHCP dentro de sua rede atráves de alguma VLAN, por exemplo.
