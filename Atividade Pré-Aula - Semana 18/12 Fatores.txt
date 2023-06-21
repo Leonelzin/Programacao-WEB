@@ -1,0 +1,32 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 21/06/2023
+
+A metodologia dos 12 fatores é um conjunto de princípios que visam orientar a construção de aplicativos modernos, especialmente aplicativos baseados em serviços na nuvem. Essa metodologia foi criada para ajudar no desenvolvimento de aplicativos que sejam escaláveis, resilientes e de fácil manutenção. Os principais objetivos da metodologia dos 12 fatores são:
+
+Separação de preocupações: Cada fator aborda uma área específica do desenvolvimento de aplicativos, permitindo a separação de preocupações e a aplicação de boas práticas em cada uma delas.
+
+Independência de plataforma: Os aplicativos desenvolvidos seguindo os 12 fatores devem poder ser executados em qualquer ambiente compatível, sem exigir alterações significativas.
+
+Escalabilidade: Os aplicativos devem ser dimensionados facilmente, permitindo que a capacidade seja ajustada de acordo com a demanda.
+
+Concorrência: Os aplicativos devem suportar a execução concorrente de processos, aproveitando a capacidade de escalabilidade horizontal.
+
+Configuração declarativa: As configurações do aplicativo devem ser mantidas fora do código-fonte, permitindo que sejam facilmente modificadas sem a necessidade de recompilação.
+
+Dependências explícitas: Todas as dependências externas do aplicativo devem ser explicitamente declaradas e isoladas do ambiente do aplicativo.
+
+Processos descartáveis: Os processos do aplicativo devem poder ser iniciados e encerrados rapidamente, sem perder informações ou estado.
+
+Dev/prod paridade: Os ambientes de desenvolvimento, teste e produção devem ser o mais parecidos possível, para evitar problemas decorrentes de diferenças de configuração.
+
+Logs tratados como fluxo de eventos: Os logs do aplicativo devem ser tratados como fluxo de eventos, permitindo que sejam facilmente coletados, agregados e analisados.
+
+Administração e gerenciamento: As tarefas de administração e gerenciamento do aplicativo devem ser executadas como processos de primeira classe, seguindo os mesmos princípios dos processos de execução do aplicativo.
+
+Portabilidade: O aplicativo deve ser facilmente portável entre ambientes de execução, como sistemas operacionais ou provedores de nuvem.
+
+Implantação facilitada: O processo de implantação do aplicativo deve ser simples, com a possibilidade de ser repetido de forma confiável e sem esforço adicional.
+
+Esses são os objetivos principais da metodologia dos 12 fatores, que visam promover a construção de aplicativos modernos, flexíveis e escaláveis, além de facilitar sua implantação e manutenção.
