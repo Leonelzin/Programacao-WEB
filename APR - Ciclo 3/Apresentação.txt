@@ -1,0 +1,41 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 22/06/2023
+
+Apresentação - Sistema de cadastro e controle de pacientes da rede pública de saúde
+
+Nome: Douglas Leonel de Almeida
+Matrícula: 2110213
+
+Introdução:
+
+Olá, meu nome é Douglas Leonel de Almeida e hoje estarei apresentando como a metodologia dos 12 fatores pode ser aplicada no desenvolvimento do Sistema de cadastro e controle de pacientes da rede pública de saúde, que está sendo desenvolvido pela Software House UniSoft. O objetivo é demonstrar como cada um dos fatores pode contribuir para o sucesso do projeto, considerando suas características mínimas e os requisitos do cliente.
+
+Base de Código:
+A base de código é um fator crucial no desenvolvimento de qualquer software. Para o nosso sistema de cadastro e controle de pacientes, propomos a utilização de uma arquitetura modular, onde cada funcionalidade será implementada como um componente separado. Isso nos permite manter um código mais organizado, facilitar a manutenção e aumentar a reutilização de código. Além disso, podemos utilizar um sistema de controle de versão, como o Git, para registrar todas as alterações no código, permitindo o trabalho colaborativo e a rastreabilidade das mudanças.
+
+Dependências:
+No desenvolvimento do nosso sistema, é importante gerenciar as dependências de forma eficiente. Podemos utilizar ferramentas de gerenciamento de pacotes, como o NPM (Node Package Manager) ou o Composer, para controlar as dependências externas do nosso projeto. Isso nos permite instalar e atualizar as bibliotecas e frameworks necessários de maneira fácil e automatizada. Além disso, devemos definir corretamente as dependências do nosso projeto, garantindo que todas as bibliotecas utilizadas estejam devidamente documentadas e atualizadas.
+
+Configurações:
+No ambiente de um sistema online e móvel, é fundamental ter um mecanismo adequado para armazenar e gerenciar as configurações. Podemos utilizar variáveis de ambiente para armazenar informações sensíveis, como chaves de API ou credenciais de banco de dados. Isso permite que as configurações sejam facilmente alteradas sem a necessidade de modificar o código-fonte. Além disso, podemos utilizar arquivos de configuração específicos para cada ambiente (desenvolvimento, teste e produção), o que facilita a configuração do sistema em diferentes cenários.
+
+Backing Services:
+Os serviços de suporte, ou backing services, desempenham um papel importante no nosso sistema. Podemos utilizar serviços em nuvem, como bancos de dados, sistemas de armazenamento de arquivos ou serviços de autenticação, para garantir a escalabilidade e a confiabilidade do nosso sistema. Ao utilizar esses serviços externos, devemos garantir que sejam independentes da nossa aplicação, permitindo a substituição ou atualização desses serviços sem impactar o funcionamento do sistema.
+
+Construir, liberar e executar:
+É importante adotar um processo automatizado de construção, liberação e execução do nosso sistema. Podemos utilizar ferramentas como o Jenkins ou o GitLab CI/CD para automatizar essas etapas. Isso nos permite construir o sistema de forma consistente, garantindo que todas as dependências estejam corretamente instaladas e que o código seja compilado e testado. Além disso, podemos criar pipelines de liberação e implantação contínuas, facilitando a entrega do sistema em diferentes ambientes e garantindo a qualidade do software.
+
+Processos:
+O desenvolvimento do nosso sistema deve seguir uma cadeia de processos bem definida. Podemos adotar metodologias ágeis, como Scrum ou Kanban, para gerenciar o projeto de forma eficiente. Isso envolve a definição de sprints, a priorização de tarefas, a realização de reuniões diárias de acompanhamento e a avaliação constante do progresso. Além disso, devemos garantir a comunicação efetiva entre os membros da equipe e a colaboração multidisciplinar, visando atingir os objetivos do projeto dentro do prazo e do orçamento estabelecidos.
+
+Conclusão:
+
+Nesta apresentação, exploramos a aplicação de seis fatores da metodologia dos 12 fatores no desenvolvimento do Sistema de cadastro e controle de pacientes da rede pública de saúde. Discutimos a importância da base de código, do gerenciamento de dependências, do armazenamento de configurações, do uso de backing services, da automação do processo de construção, liberação e execução, e da adoção de processos eficientes. Esses fatores são essenciais para garantir a qualidade, a escalabilidade e a manutenibilidade do nosso sistema. Com a adoção dessas práticas, podemos atender aos requisitos do cliente e fornecer uma solução tecnológica eficaz para a rede pública de saúde.
+
+Obrigado pela atenção.
+
+[Assinatura]
+Douglas Leonel de Almeida
+Matrícula: 2110213
