@@ -1,0 +1,26 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 26/06/2023
+
+Resumo da apresentação de Trabalho de Conclusão de Curso (TCC) relacionada à disciplina de programação web:
+
+A apresentação do TCC relatou o desenvolvimento do aplicativo Chelf, que simplifica a busca e o acesso a receitas culinárias. O objetivo principal do trabalho foi criar uma solução inovadora para os desafios enfrentados pelos entusiastas da culinária ao procurarem receitas online.
+
+O Chelf utiliza técnicas avançadas de análise de dados e processamento de linguagem natural para oferecer aos usuários uma experiência eficiente e personalizada na busca por receitas. Os desenvolvedores reconheceram a dificuldade de encontrar receitas que atendam às preferências e restrições alimentares de cada usuário, devido à imensa quantidade de informações disponíveis.
+
+Para enfrentar esses desafios, o aplicativo coletou e compilou um amplo conjunto de receitas do site "Tudo Gostoso" por meio de técnicas de análise de dados. Essa base de dados abastece o Chelf, proporcionando aos usuários acesso a uma grande variedade de receitas em diferentes categorias e estilos culinários.
+
+Além disso, o Chelf utiliza técnicas de processamento de linguagem natural para aprimorar a experiência de busca. Os usuários podem realizar consultas utilizando termos e frases comuns, sem a necessidade de conhecimento prévio em terminologia culinária especializada. Essa abordagem intuitiva torna a busca por receitas mais acessível para usuários de todos os níveis de habilidade culinária.
+
+Durante a apresentação, foram destacados recursos adicionais do Chelf, como a personalização das receitas. Os usuários podem ajustar automaticamente as quantidades dos ingredientes de acordo com o número de porções desejadas. Isso proporciona flexibilidade para famílias de diferentes tamanhos ou ocasiões especiais. Além disso, o aplicativo permite salvar receitas favoritas, criando uma biblioteca pessoal de receitas para acesso rápido e fácil.
+
+A metodologia de desenvolvimento utilizada foi o Scrum, uma abordagem ágil que permitiu uma colaboração eficiente entre os membros da equipe e ajustes contínuos ao longo do processo de desenvolvimento do aplicativo.
+
+Durante a apresentação, a importância de fornecer informações detalhadas nos textos das receitas foi ressaltada, especialmente nas etapas de preparo. Uma organização lógica das etapas, seguindo uma sequência clara, foi destacada como fundamental para o sucesso na execução das receitas.
+
+Um fluxograma detalhado do projeto do Chelf foi compartilhado, ilustrando as diferentes etapas envolvidas no processo, desde a coleta de dados até a entrega das receitas aos usuários. Essa representação visual ajudou a compreender a estrutura do aplicativo e seu funcionamento.
+
+O Chelf também se destaca por sua função de sugestão de receitas com base nos ingredientes informados pelos usuários. Ao indicarem os ingredientes disponíveis em suas despensas, os usuários recebem sugestões de receitas que se adequam aos ingredientes fornecidos, oferecendo soluções criativas para o preparo das refeições.
+
+Em conclusão, a apresentação do TCC destacou o Chelf como um aplicativo inovador e prático, projetado para simplificar a busca por receitas culinárias. Com sua interface amigável, recursos de personalização, informações detalhadas, organização lógica das etapas e sugestão de receitas com base nos ingredientes dos usuários, o Chelf oferece uma solução abrangente para os desafios enfrentados pelos amantes da culinária ao buscar receitas online.

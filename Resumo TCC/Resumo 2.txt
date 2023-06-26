@@ -1,0 +1,20 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 26/06/2023
+
+Resumo da apresentação de Trabalho de Conclusão de Curso (TCC) relacionada à disciplina de programação web:
+
+O trabalho intitulado "Adaptação do Algoritmo MiniMax para Jogos de Três ou Mais Jogadores" aborda a extensão do algoritmo MiniMax, amplamente utilizado em jogos de dois jogadores, para jogos que envolvem três ou mais participantes.
+
+O objetivo principal desse trabalho é explorar como o algoritmo MiniMax, que originalmente lida com a busca de melhores jogadas em jogos de dois jogadores (um jogador maximiza sua pontuação, enquanto o outro minimiza), pode ser adaptado para jogos envolvendo múltiplos jogadores, onde a interação entre eles é mais complexa.
+
+A adaptação do algoritmo MiniMax para jogos de três ou mais jogadores pode envolver a modificação da função de avaliação, que determina a utilidade ou a pontuação de um determinado estado do jogo. Nesse contexto, a função de avaliação deve considerar as diferentes estratégias e interações entre os jogadores, levando em conta as vantagens e desvantagens de cada um.
+
+Além disso, a expansão do algoritmo MiniMax para jogos de três ou mais jogadores pode exigir a definição de novas regras e estratégias de tomada de decisão. A busca pelos melhores movimentos pode envolver a análise de múltiplas jogadas e a consideração de diferentes cenários, a fim de maximizar a pontuação do jogador em relação aos demais participantes do jogo.
+
+No contexto da disciplina de programação web, o trabalho pode explorar a implementação e visualização dessa adaptação em um ambiente interativo baseado na web. Pode-se desenvolver uma interface que permita aos jogadores interagir com o jogo, observar as estratégias adotadas pelos outros jogadores e visualizar o desempenho do algoritmo MiniMax adaptado.
+
+A contribuição desse trabalho para o campo da programação web está na aplicação do algoritmo MiniMax adaptado em jogos de três ou mais jogadores. Essa adaptação amplia o escopo de aplicação do algoritmo, permitindo sua utilização em jogos multiplayer mais complexos. Dessa forma, o trabalho apresenta uma abordagem inovadora e desafiadora para resolver problemas de tomada de decisão em jogos envolvendo múltiplos jogadores.
+
+Em resumo, o trabalho "Adaptação do Algoritmo MiniMax para Jogos de Três ou Mais Jogadores" propõe uma extensão do algoritmo MiniMax para lidar com jogos multiplayer. Ao explorar a programação web, o trabalho busca implementar e visualizar essa adaptação em um ambiente interativo. Com essa contribuição, o trabalho oferece uma solução inovadora para a tomada de decisões em jogos multiplayer, ampliando o escopo de aplicação do algoritmo MiniMax e apresentando possíveis aplicações práticas na indústria de jogos.

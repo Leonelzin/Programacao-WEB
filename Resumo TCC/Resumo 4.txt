@@ -1,0 +1,18 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 26/06/2023
+
+Resumo da apresentação de Trabalho de Conclusão de Curso (TCC) relacionada à disciplina de programação web:
+
+O trabalho intitulado "Carregamento Eficiente de Containers: Desenvolvimento de Heurística de Otimização" aborda a aplicação de uma heurística de otimização no contexto do carregamento de containers. O objetivo principal é desenvolver uma abordagem eficiente para alocar itens em containers, visando maximizar o aproveitamento do espaço disponível.
+
+A heurística de otimização proposta busca soluções próximas da ótima para o problema de carregamento de containers, considerando restrições como dimensões e pesos dos itens, além das características e limitações dos próprios containers. O objetivo é alcançar uma alocação que minimize os espaços vazios nos containers, otimizando assim a utilização do espaço disponível.
+
+No contexto específico da disciplina de programação web, o trabalho pode explorar a aplicação da heurística de otimização utilizando tecnologias, linguagens e frameworks relacionados à programação web. Por exemplo, pode-se desenvolver uma interface web interativa para receber os parâmetros do problema (dimensões dos itens, capacidades dos containers, etc.) e exibir visualmente as soluções geradas pela heurística.
+
+Além disso, o trabalho pode discutir a implementação da heurística utilizando técnicas e algoritmos comumente empregados na programação web, como algoritmos de busca, estruturas de dados eficientes e técnicas de renderização gráfica para visualizar os resultados.
+
+A contribuição desse trabalho para o campo da programação web reside na aplicação de técnicas de otimização em um contexto prático e relevante. A heurística desenvolvida pode ser utilizada em sistemas de gerenciamento de carga, logística ou qualquer cenário que envolva o carregamento eficiente de containers. Dessa forma, o trabalho apresenta uma abordagem inovadora e eficiente para resolver um problema desafiador, com possíveis aplicações práticas na indústria e no comércio.
+
+Em conclusão, o trabalho "Carregamento Eficiente de Containers: Desenvolvimento de Heurística de Otimização" propõe uma abordagem baseada em heurística para resolver o problema de alocação de itens em containers. Ao explorar as possibilidades da programação web, o trabalho busca desenvolver uma solução eficiente e aplicável, contribuindo para o campo da programação web e oferecendo uma alternativa para otimizar o carregamento de containers em diversos setores da indústria.
