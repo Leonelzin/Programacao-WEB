@@ -1,0 +1,22 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Douglas Leonel de Almeida
+DATA: 26/06/2023
+
+O processo de autenticação entre duas aplicações geralmente envolve a verificação da identidade do usuário ou serviço que está tentando acessar recursos ou interagir com a outra aplicação. Existem várias maneiras de realizar a autenticação, mas vou explicar uma abordagem comum usando autenticação baseada em tokens.
+
+Solicitação de autenticação: Quando um usuário ou serviço tenta acessar a aplicação de destino, é feita uma solicitação de autenticação. Isso geralmente é feito enviando um pedido para um endpoint específico na aplicação que inicia o processo de autenticação.
+
+Geração de tokens: Após receber a solicitação de autenticação, a aplicação de destino gera um token de autenticação. Esse token é uma representação digital da identidade do usuário ou serviço e contém informações relevantes, como identificador único, data de expiração e talvez algumas informações adicionais, como permissões ou escopos de acesso.
+
+Envio do token: O token gerado é então enviado de volta para o solicitante, geralmente em forma de resposta à solicitação de autenticação original. O token pode ser incluído no cabeçalho da resposta ou em um campo específico do corpo da resposta.
+
+Armazenamento do token: O solicitante, que é a aplicação que está tentando acessar a aplicação de destino, recebe o token e o armazena de forma segura. Isso pode ser feito em memória, em um cookie do navegador, em um banco de dados ou em qualquer outro local adequado para o contexto.
+
+Envio do token em requisições subsequentes: Quando o solicitante precisa fazer uma requisição para a aplicação de destino, ele inclui o token de autenticação nas requisições subsequentes. Normalmente, isso é feito adicionando o token no cabeçalho da requisição, no campo "Authorization" ou em algum outro campo específico definido pela aplicação.
+
+Validação do token: A aplicação de destino recebe as requisições subsequentes com o token e realiza a validação. Isso envolve verificar se o token é válido, se não expirou e se está associado à permissão necessária para acessar o recurso solicitado. A validação pode ser feita consultando uma fonte confiável, como um servidor de autorização, um banco de dados ou um serviço de autenticação centralizado.
+
+Concessão de acesso: Se o token for válido e a validação for bem-sucedida, a aplicação de destino concede acesso ao recurso solicitado e processa a requisição. Caso contrário, se o token for inválido, expirado ou não tiver as permissões necessárias, a aplicação retornará um erro de autenticação e negará o acesso.
+
+Esse é um exemplo básico do processo de autenticação entre duas aplicações usando autenticação baseada em tokens. É importante ressaltar que existem várias abordagens e protocolos de autenticação disponíveis, como OAuth, OpenID Connect e JWT (JSON Web Tokens), que oferecem diferentes recursos e níveis de segurança. A escolha do método mais adequado depende dos requisitos e da arquitetura da aplicação.
