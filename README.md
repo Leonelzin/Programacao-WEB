@@ -1,18 +1,34 @@
 # 🌐 Programação Web
 
-Bem-vindo ao repositório de **Programação Web**! Este projeto foi desenvolvido com o objetivo de aplicar e demonstrar os conhecimentos adquiridos na disciplina de Programação Web, incluindo conceitos de front-end, back-end e integração com bancos de dados.
+Bem-vindo ao repositório de **Programação Web**! Este projeto foi desenvolvido com o objetivo de aplicar e demonstrar os conhecimentos adquiridos na disciplina de Programação Web, incluindo conceitos de front-end, back-end, integração com bancos de dados e práticas com APIs.
 
 ---
 
-## 📚 Conteúdo
+## 📚 Organização do Repositório
 
-Este repositório está organizado por temas e atividades trabalhadas ao longo da disciplina:
+O repositório está dividido por ciclos, semanas e atividades práticas, refletindo o progresso das aulas e projetos desenvolvidos durante a disciplina.
 
-- `html-css/` → Exercícios e práticas com HTML5 e CSS3  
-- `javascript/` → Scripts de funcionalidades com JS puro  
-- `php/` → Scripts de back-end utilizando PHP  
-- `banco-de-dados/` → Scripts SQL e integração com banco de dados  
-- `projetos/` → Projetos completos com front e back-end integrados  
+### 🔁 Ciclos APR (Aprendizagem por Projeto Real)
+
+- **APR - Ciclo 1, 2 e 3**: Contém atividades baseadas em situações reais com foco em resolução de problemas, como telas de cadastro de paciente, APIs e apresentações de propostas.
+
+### 📘 Atividades Práticas (Sx)
+
+- **Atividade Prática - S1 a S16**: Conjunto de atividades com foco técnico em HTML, CSS, JavaScript, APIs e integração com banco de dados.
+- Cada pasta reflete uma semana ou módulo de atividade prática trabalhado, incluindo códigos-fonte e arquivos complementares.
+
+### 🔬 Atividades Pré-Aula
+
+- **Atividade Pré-Aula - Semana 03 a 18**: Exercícios preparatórios com foco em revisão de conteúdos e fixação prática antes das aulas teóricas. Inclui jogos com JavaScript, explicações conceituais e pequenos projetos.
+
+### 💡 Outros Projetos
+
+- **Crud Estudos**: Projeto de estudos envolvendo operações de CRUD.
+- **Curso WEB Master**: Materiais e exercícios do curso complementar focado em desenvolvimento web.
+- **Projeto Integrador**: Projeto de maior complexidade com foco em integração de front-end e back-end.
+- **NaDespensa 2.0**: Protótipo de aplicativo com funcionalidades de login e gerenciamento.
+- **megalodonte-app**: Projeto experimental com estrutura inicial configurada.
+- **Resumo TCC**: Arquivos de apoio para o Trabalho de Conclusão de Curso (TCC).
 
 ---
 
@@ -21,6 +37,8 @@ Este repositório está organizado por temas e atividades trabalhadas ao longo d
 - HTML5 / CSS3  
 - JavaScript  
 - PHP  
+- Python  
+- Node.js  
 - MySQL  
 - XAMPP / Apache
 
@@ -34,26 +52,32 @@ Este repositório está organizado por temas e atividades trabalhadas ao longo d
 git clone https://github.com/Leonelzin/Programacao-WEB.git
 ```
 
-2. Caso esteja utilizando PHP:
-   - Instale o XAMPP ou outro servidor local.
-   - Mova os arquivos para a pasta `htdocs/`.
-   - Inicie o Apache e o MySQL.
-   - Acesse pelo navegador via `http://localhost/NOME_DA_PASTA/`.
+2. Caso esteja utilizando PHP ou Python:
+   - Instale o XAMPP ou um ambiente virtual Python.
+   - Para PHP: Mova os arquivos para a pasta `htdocs/` e inicie o Apache/MySQL.
+   - Para Python: Instale as dependências e execute o arquivo `.py` correspondente.
 
 3. Para arquivos HTML/JS/CSS:
    - Basta abrir o arquivo `.html` diretamente no navegador.
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📁 Estrutura do Repositório (Resumo)
 
 ```bash
 Programacao-WEB/
-├── html-css/
-├── javascript/
-├── php/
-├── banco-de-dados/
-└── projetos/
+├── APR - Ciclo 1/
+├── APR - Ciclo 2/
+├── APR - Ciclo 3/
+├── Atividade Pratica - S1 a S16/
+├── Atividade Pré-Aula - Semana 03 a 18/
+├── Curso WEB Master/
+├── Projeto Integrador/
+├── NaDespensa 2.0/
+├── Crud Estudos/
+├── megalodonte-app/
+├── Resumo TCC/
+└── README.md
 ```
 
 ---
